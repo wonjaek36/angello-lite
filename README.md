@@ -1,8 +1,6 @@
 # Learning AngularJS
-Starting at 14/Nov/2017
-
-Finishing at 30/Nov/2017
-
+Starting at 14/Nov/2017  
+Finishing at 30/Nov/2017  
 
 Below content is a file of README in "angella-lite" repository
 
