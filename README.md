@@ -1,3 +1,9 @@
+# Learning AngularJS
+Starting at 14/Nov/2017
+To finish at 30/Nov/2017
+
+Below content is a file of README in "angella-lite" repository
+
 # Angello Lite
 #### An introductory version of [Angello](https://github.com/angularjs-in-action/angello), the app built in the book [AngularJS in Action](http://www.manning.com/bford/).
 
