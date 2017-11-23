@@ -13,6 +13,33 @@
 	<body>
 		<div ng-controller="MainCtrl as main">
 			<div class="col-md-4">
+				<!-- page 22 //-->
+				<h2>Stories</h2>
+				<story class="callout" 
+					ng-repeat="story in main.stories"
+					ng-click="main.setCurrentStory(story)">
+				</story>
+
+				<!-- page 17 //-->
+				<!--
+				<h2>Stories</h2>
+				<div class="callout"
+					ng-repeat="story in main.stories"
+					ng-click="main.setCurrentStory(story)">
+					<h4>{{story.title}}</h4>
+					<p>{{story.description}}</p>
+				</div>
+				<br />
+				//-->
+				<!-- page 1*8 //-->
+				<div>
+					<a class="btn btn-primary" ng-click="main.createStory()">
+						<span class="glyphicon glyphicon-plus"></span>
+					</a>
+				</div>
+
+				<!--First Code //-->
+				<!--
 				<h2>Stories</h2>
 				<story class="callout"
                        ng-repeat="story in main.stories"
@@ -21,7 +48,7 @@
 				<br/>
 				<a class="btn btn-primary" ng-click="main.createStory()">
                     <span class="glyphicon glyphicon-plus"></span>
-                </a>
+                </a>//-->
 			</div>
 			<div class="col-md-6 content">
 				<h2>Story</h2>
